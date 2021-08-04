@@ -1,0 +1,25 @@
+.table-container {
+  padding: 5px;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+
+.table-header-container + .table-container {
+  margin-top: 10px;
+}
+
+.table-container + .table-footer-container {
+  margin-top: 10px;
+}
+
+.table-footer-container {
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.el-card__header {
+  padding: 9px 14px !important;
+}
