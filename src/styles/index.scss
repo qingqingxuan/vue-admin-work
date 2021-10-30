@@ -1,0 +1,17 @@
+@import "./transition.scss";
+@import "./table.scss";
+@import "./main.css";
+@import "./anim.css";
+
+#nprogress {
+  .bar {
+    background-color: #48d8e3;
+    height: 3px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .el-message-box {
+    width: 80% !important;
+  }
+}

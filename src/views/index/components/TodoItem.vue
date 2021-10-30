@@ -1,0 +1,65 @@
+<template>
+  <div class="wating-item-action">
+    <div class="flex align-center item-header-wrapper">
+      <div
+        class="item-header flex justify-center align-center"
+        :style="headerStyle"
+      >{{ firstChar }}</div>
+      <div class="item-time flex-sub">{{ item.time }}</div>
+    </div>
+    <div class="item-content margin-top-xs">{{ item.content }}</div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'TodoItem',
+  props: {
+    item: {
+      type: Object,
+      default: () => {
+        return []
+      }
+    }
+  },
+  data() {
+    return {
+      headerStyle: {
+        backgroundColor: this.item.bgColor
+      }
+    }
+  },
+  computed: {
+    firstChar() {
+      return this.item.content.substring(0, 1)
+    }
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+.wating-item-action {
+  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  .item-header-wrapper {
+    .item-header {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      color: #fff;
+    }
+    .item-time {
+      color: #888;
+      margin-left: 10px;
+    }
+  }
+  .item-content {
+    color: #4e4e4e;
+    line-height: 18px;
+  }
+}
+div.wating-item-action:last-child {
+  border-bottom: 0;
+}
+</style>

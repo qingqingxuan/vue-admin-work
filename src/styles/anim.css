@@ -1,0 +1,73 @@
+@keyframes anim-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  80% {
+    transform: rotate(135deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+@keyframes anim-ripple {
+  0% {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  30% {
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+  }
+  50% {
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+  }
+  80% {
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+  }
+  100% {
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+  }
+}
+.ripple {
+  position: relative;
+  width: 10px;
+  height: 10px;
+}
+.ripple::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: red;
+  z-index: 2;
+  border-radius: 50%;
+}
+.ripple::after {
+  content: "";
+  position: absolute;
+  box-shadow: 2px 0 10px rgb(255, 124, 124) inset;
+  z-index: 0;
+  border-radius: 50%;
+  animation: anim-ripple 1s infinite;
+}

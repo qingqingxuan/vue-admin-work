@@ -1,0 +1,44 @@
+.el-loading-spinner .circular {
+  width: 42px;
+  height: 42px;
+  animation: loading-rotate 2s linear infinite;
+  display: none;
+}
+.el-loading-spinner {
+  width: 230px;
+  height: 230px;
+  mask-image: url("../assets/logo.png");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  animation: raise 4s ease-in-out infinite;
+  position: relative;
+}
+@keyframes raise {
+  0% {
+    background: linear-gradient(to bottom, #fff 60%, #00f 60%);
+  }
+  12.5% {
+    background: linear-gradient(to bottom, #fff 57.5%, #00f 57.5%);
+  }
+  25% {
+    background: linear-gradient(to bottom, #fff 55%, #00f 55%);
+  }
+  37.5% {
+    background: linear-gradient(to bottom, #fff 52.5%, #00f 52.5%);
+  }
+  50% {
+    background: linear-gradient(to bottom, #fff 50%, #00f 50%);
+  }
+  62.5% {
+    background: linear-gradient(to bottom, #fff 47.5%, #00f 47.5%);
+  }
+  75% {
+    background: linear-gradient(to bottom, #fff 45%, #00f 45%);
+  }
+  87.5% {
+    background: linear-gradient(to bottom, #fff 42.5%, #00f 42.5%);
+  }
+  100% {
+    background: linear-gradient(to bottom, #fff 40%, #00f 40%);
+  }
+}
