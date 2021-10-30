@@ -5,7 +5,7 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 module.exports = {
-  publicPath: '/',
+  publicPath: '/vue-admin-work',
   outputDir: 'dist',
   assetsDir: 'static',
   lintOnSave: true,
