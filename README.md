@@ -1,4 +1,4 @@
-<img src="http://qingqingxuan.gitee.io/images/logo.png" align="center" />
+<img src="http://qingqingxuan.gitee.io/img/logo.png" align="center" />
 
 <h1 align = "center">vue-admin-work</h1>
 
@@ -10,17 +10,17 @@
 
 本项目是开源项目，开源不易，还请各们小主赏杯咖啡，以更好的维护此项目。您的支持是我们前进的最大动力。
 
-| <img src="http://qingqingxuan.gitee.io/images/wx-donation.jpg" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/images/ali-donation.jpg" style="zoom:20%;" /> |
-| :---------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
+| <img src="http://qingqingxuan.gitee.io/img/wx-donation.jpg" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/img/ali-donation.jpg" style="zoom:20%;" /> |
+| :------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
 
 
-| <img src="http://qingqingxuan.gitee.io/images/qq-custom.png" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/images/qq-vip-group.png" style="zoom:20%;" /> |
-| :-------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
+| <img src="http://qingqingxuan.gitee.io/img/qq-custom.png" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/img/qq-vip-group.png" style="zoom:20%;" /> |
+| :----------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
 
 
 ## 关注微信公众号 `知码前端` 方便以后更新、升级
 
-<img src="http://qingqingxuan.gitee.io/images/wx-service.jpg"/>
+<img src="http://qingqingxuan.gitee.io/img/wx-service.jpg"/>
 
 ## 适合人群
 
@@ -69,8 +69,8 @@ vue-admin-work 有如下优势:
 
 ## 效果图
 
-| <img src="http://qingqingxuan.gitee.io/images/project-image-1.png" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/images/project-image-2.jpg" style="zoom:20%;" /> |
-| :-------------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------- |
-| <img src="http://qingqingxuan.gitee.io/images/project-image-3.png" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/images/project-image-4.png" style="zoom:20%;" /> |
-| <img src="http://qingqingxuan.gitee.io/images/project-image-5.png" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/images/project-image-6.png" style="zoom:20%;" /> |
-| <img src="http://qingqingxuan.gitee.io/images/project-image-7.png" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/images/project-image-8.png" style="zoom:20%;" /> |
+| <img src="http://qingqingxuan.gitee.io/img/project-image-1.png" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/img/project-image-2.jpg" style="zoom:20%;" /> |
+| :----------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------ |
+| <img src="http://qingqingxuan.gitee.io/img/project-image-3.png" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/img/project-image-4.png" style="zoom:20%;" /> |
+| <img src="http://qingqingxuan.gitee.io/img/project-image-5.png" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/img/project-image-6.png" style="zoom:20%;" /> |
+| <img src="http://qingqingxuan.gitee.io/img/project-image-7.png" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/img/project-image-8.png" style="zoom:20%;" /> |
