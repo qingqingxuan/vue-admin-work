@@ -8,12 +8,6 @@
 
 ## vue-admin-work 前端讨论群及 QQ 客服
 
-本项目是开源项目，开源不易，还请各们小主赏杯咖啡，以更好的维护此项目。您的支持是我们前进的最大动力。
-
-| <img src="http://qingqingxuan.gitee.io/img/wx-donation.jpg" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/img/ali-donation.jpg" style="zoom:20%;" /> |
-| :------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
-
-
 | <img src="http://qingqingxuan.gitee.io/img/qq-custom.png" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/img/qq-vip-group.png" style="zoom:20%;" /> |
 | :----------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
 
@@ -74,3 +68,9 @@ vue-admin-work 有如下优势:
 | <img src="http://qingqingxuan.gitee.io/img/project-image-3.png" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/img/project-image-4.png" style="zoom:20%;" /> |
 | <img src="http://qingqingxuan.gitee.io/img/project-image-5.png" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/img/project-image-6.png" style="zoom:20%;" /> |
 | <img src="http://qingqingxuan.gitee.io/img/project-image-7.png" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/img/project-image-8.png" style="zoom:20%;" /> |
+
+本项目是开源项目，开源不易，还请各们小主赏杯咖啡，以更好的维护此项目。您的支持是我们前进的最大动力。
+
+| <img src="http://qingqingxuan.gitee.io/img/wx-donation.jpg" style="zoom:20%;" /> | <img src="http://qingqingxuan.gitee.io/img/ali-donation.jpg" style="zoom:20%;" /> |
+| :------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
+
