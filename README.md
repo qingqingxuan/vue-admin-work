@@ -1,10 +1,10 @@
-<img src="http://qingqingxuan.gitee.io/img/logo.png" align="center" />
+<div align="center"><img src="http://qingqingxuan.gitee.io/img/logo.png" /></div>
 
 <h1 align = "center">vue-admin-work</h1>
 
 ## 项目演示地址：
 
-- [🎉 官网&文档地址](http://qingqingxuan.gitee.io/work-p-site)
+- [🎉🎉🎉 官网&文档地址 🎉🎉🎉](http://qingqingxuan.gitee.io/work-p-site)
 
 - [🎉Vue Admin Work 演示地址（Vue2.x + Javascript + Element UI + Webpack）](http://qingqingxuan.gitee.io/vue-admin-work)
 
@@ -26,7 +26,7 @@
 
 ## 关注微信公众号 `知码前端` 方便以后更新、升级
 
-<img src="http://qingqingxuan.gitee.io/img/wx-service.jpg"/>
+<div align="center"><img src="http://qingqingxuan.gitee.io/img/wx-service.jpg"/></div>
 
 ## 适合人群
 
