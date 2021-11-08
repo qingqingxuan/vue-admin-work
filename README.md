@@ -38,7 +38,7 @@
 
 ```shell
 # 克隆项目
-git clone -b master https://github.com/chuzhixin/vue-admin-beautiful.git
+git clone -b master https://github.com/qingqingxuan/vue-admin-work.git
 # 进入项目目录
 cd vue-admin-work
 # 安装依赖
