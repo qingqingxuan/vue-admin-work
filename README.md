@@ -18,7 +18,7 @@
 
 - [🎉Vue Admin Work P 演示地址（Vue3.x + Tavascript + Naive UI + Vite2](http://qingqingxuan.gitee.io/vue-admin-work-p)
 
-[🚀 Vue Admin Work P 源码地址 🚀](http://qingqingxuan.gitee.io/work-p-site)
+* [🚀 Vue Admin Work P 源码地址 🚀](http://qingqingxuan.gitee.io/work-p-site)
 
 ## vue-admin-work 前端讨论群及 QQ 客服
 
