@@ -1,4 +1,4 @@
-import { Layout } from 'vaw-layouts'
+import { Layout } from '@/layouts/index'
 export default [
   {
     path: '/next-page',

@@ -3,7 +3,7 @@ import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 import store from '@/store'
 import service from '@/api/axios.config'
-import LayoutStore, { Layout } from 'vaw-layouts'
+import LayoutStore, { Layout } from '@/layouts/index'
 import { routes as constantRoutes } from '@/router'
 import { baseAddress, getMenuListByRoleId } from '@/api/url'
 
@@ -28,7 +28,7 @@ function getRoutes() {
 function getComponent(it) {
   return resolve => {
     if (it.children && it.children.length > 0) {
-      require(['vaw-layouts/src/components/RouterViewLayout.vue'], resolve)
+      require(['@/layouts/RouterViewLayout.vue'], resolve)
     } else {
       require(['@/views' + it.menuUrl], resolve)
     }

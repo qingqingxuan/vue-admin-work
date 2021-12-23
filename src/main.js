@@ -11,7 +11,7 @@ import '../mock'
 
 import '@/components/common'
 
-import LayoutStore from 'vaw-layouts'
+import LayoutStore from '@/layouts/index'
 import AvatarUrl from '@/assets/img_avatar_example.gif'
 import { resetRouter } from './router/index'
 import Cookies from 'js-cookie'

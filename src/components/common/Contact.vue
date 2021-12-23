@@ -3,15 +3,7 @@
     <div class="code-wrapper">
       <img :src="require('@/assets/qrcode.jpg')" />
     </div>
-    <span>关注公众号<strong class="margin-left-xs">{{ officialAccount }}</strong></span>
-    <div class="margin-top-xs flex justify-center align-center">QQ客服
-      <strong class="margin-left margin-right">{{ qq }}</strong>
-      <span
-        class="copy"
-        :data-clipboard-text="qq"
-        @click="copy"
-      >复制</span>
-    </div>
+    <span>关注公众号<strong>{{ officialAccount }}</strong>获取源码</span>
   </div>
 </template>
 

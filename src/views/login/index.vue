@@ -69,10 +69,8 @@
 
 <script>
 import ImageBg1 from '@/assets/img_login_bg_01.jpg'
-import ImageBg2 from '@/assets/img_login_bg_02.jpg'
-import ImageBg3 from '@/assets/img_login_bg_03.jpg'
 import ImageMobileBg1 from '@/assets/img_login_mobile_bg_01.jpg'
-import PageFooter from 'vaw-layouts/src/components/footer'
+import PageFooter from '@/layouts/footer'
 import VawVerify from 'vaw-verify'
 import 'vaw-verify/lib/vaw-verify.css'
 export default {
@@ -83,8 +81,6 @@ export default {
       username: 'admin',
       password: '123456',
       ImageBg1,
-      ImageBg2,
-      ImageBg3,
       ImageMobileBg1,
       redirect: '',
       autoLogin: true,
@@ -175,7 +171,7 @@ export default {
       width: 50px;
     }
     & img::after {
-      content: '欢迎来到vue-admin-work';
+      content: "欢迎来到vue-admin-work";
     }
   }
   .login-footer-wrapper {

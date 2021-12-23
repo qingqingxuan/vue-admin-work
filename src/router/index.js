@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import { Layout } from 'vaw-layouts'
+import { Layout } from '@/layouts/index'
 
 import NextPageInfo from './next-page/routes'
 
