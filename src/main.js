@@ -21,7 +21,7 @@ Vue.use(LayoutStore, {
     isFixedNavBar: true,
     layoutMode: 'ltr',
     themeColor: 'theme_color_blue',
-    theme: 'light',
+    theme: 'dark-side',
     userInfo: {
       nickName: '超级管理员',
       avatar: AvatarUrl
