@@ -6,7 +6,7 @@
           type="primary"
           size="mini"
           icon="el-icon-plus"
-          @click="test"
+          @click="onAddItem"
         >添加
         </el-button>
       </template>
@@ -141,7 +141,6 @@ import {
   AddItemMixin,
   DeleteItemsMixin
 } from '@/mixins/ActionMixin'
-import store from '@/layouts'
 export default {
   name: 'Menu',
   mixins: [
@@ -244,11 +243,6 @@ export default {
         }
       }
     })
-  },
-  methods: {
-    test() {
-      store.changeSideBarIcon('/list/table', 'el-icon-delete-solid')
-    }
   }
 }
 </script>
