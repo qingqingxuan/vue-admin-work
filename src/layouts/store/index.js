@@ -5,6 +5,24 @@ import loginOut from './modules/login-out.js'
 import visitedViewAction from './modules/visited-view'
 const layoutModes = ['ltr', 'lcr', 'ttb']
 
+function findItemByKey(key, menuList) {
+  for (let index = 0; index < menuList.length; index++) {
+    const temp = menuList[index]
+    if (temp.path === key) {
+      return temp
+    } else {
+      if (temp.children && temp.children.length > 0) {
+        const result = findItemByKey(key, temp.children)
+        if (result) {
+          return result
+        }
+        continue
+      }
+      continue
+    }
+  }
+}
+
 export default {
   state: {
     isCollapse: false,
@@ -67,6 +85,17 @@ export default {
   },
   isEmptyPermissionRoute() {
     return !this.state.permissionRoutes || this.state.permissionRoutes.length === 0
+  },
+  changeSideBarIcon(key = null, icon = null) {
+    if (!key || !icon) {
+      return
+    }
+    const menuList = this.state.permissionRoutes
+      .filter(it => it.hidden === false)
+    const item = findItemByKey(key, menuList)
+    if (item && item.meta) {
+      item.meta.icon = icon
+    }
   },
   ...cachedViewAction,
   ...visitedViewAction,

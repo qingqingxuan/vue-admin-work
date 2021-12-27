@@ -49,11 +49,22 @@
     color: $activeTextColor !important;
     z-index: 1;
   }
-  .el-submenu__title:hover {
+  .dark-side .el-submenu__title:hover {
     background-color: transparent !important;
+    color: #fff !important;
   }
-  .el-menu-item:hover {
-    background-color: $menuActiveBgColor !important;
+  .dark-side .el-menu-item:hover {
+    background-color: transparent !important;
+    color: #fff !important;
+  }
+
+  .light .el-submenu__title:hover {
+    background-color: transparent !important;
+    color: $menuActiveBgColor !important;
+  }
+  .light .el-menu-item:hover {
+    background-color: transparent !important;
+    color: $menuActiveBgColor !important;
   }
   .el-menu-item.is-active {
     background-color: $menuActiveBgColor !important;

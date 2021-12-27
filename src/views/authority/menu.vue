@@ -6,7 +6,7 @@
           type="primary"
           size="mini"
           icon="el-icon-plus"
-          @click="onAddItem"
+          @click="test"
         >添加
         </el-button>
       </template>
@@ -141,6 +141,7 @@ import {
   AddItemMixin,
   DeleteItemsMixin
 } from '@/mixins/ActionMixin'
+import store from '@/layouts'
 export default {
   name: 'Menu',
   mixins: [
@@ -194,8 +195,8 @@ export default {
           }
         })
       },
-      onResult: () => {},
-      onError: () => {}
+      onResult: () => { },
+      onError: () => { }
     })
     this.initUpdateItem({
       url: this.$urlPath.getMenuList,
@@ -223,7 +224,7 @@ export default {
       onResult: () => {
         this.$successMsg('菜单模拟添加成功')
       },
-      onError: () => {}
+      onError: () => { }
     })
     this.initDeleteItem({
       url: this.$urlPath.getMenuList,
@@ -243,6 +244,11 @@ export default {
         }
       }
     })
+  },
+  methods: {
+    test() {
+      store.changeSideBarIcon('/list/table', 'el-icon-delete-solid')
+    }
   }
 }
 </script>

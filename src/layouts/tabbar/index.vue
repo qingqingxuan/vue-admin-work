@@ -288,6 +288,9 @@ export default {
   }
 }
 ::v-deep {
+  .el-tabs__item {
+    font-size: 12px;
+  }
   .el-tabs--card > .el-tabs__header {
     border: none;
     margin: 0;
