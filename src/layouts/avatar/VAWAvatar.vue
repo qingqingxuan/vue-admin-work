@@ -3,59 +3,66 @@
     <el-dropdown trigger="hover" @command="onCommad">
       <div class="action-wrapper">
         <div class="avatar">
-          <img :src="state.userInfo.avatar" />
+          <img :src="avatar" />
         </div>
         <span class="nick-name el-dropdown-link">
-          <span>{{ state.userInfo.nickName || "admin" }}</span>
+          <span>{{ nickName || "admin" }}</span>
           <i class="el-icon-arrow-down tip"></i>
         </span>
       </div>
       <el-dropdown-menu slot="dropdown">
-        <el-dropdown-item icon="el-icon-user" command="personalCenter"
-          >个人中心</el-dropdown-item
-        >
-        <el-dropdown-item icon="el-icon-switch-button" command="logout"
-          >退出登录</el-dropdown-item
-        >
+        <el-dropdown-item icon="el-icon-user" command="personalCenter">
+          个人中心
+        </el-dropdown-item>
+        <el-dropdown-item icon="el-icon-switch-button" command="logout">
+          退出登录
+        </el-dropdown-item>
       </el-dropdown-menu>
     </el-dropdown>
   </div>
 </template>
 
 <script>
-import store from "../store/index";
-import { MessageBox } from "element-ui";
+import store from '../store/index'
+import { MessageBox } from 'element-ui'
+import { mapGetters } from 'vuex'
 export default {
-  name: "VAWAvatar",
+  name: 'VAWAvatar',
   data() {
     return {
       state: store.state
-    };
+    }
+  },
+  computed: {
+    ...mapGetters({
+      avatar: 'user/getAvatar',
+      nickName: 'user/getNickName'
+    })
   },
   methods: {
     onCommad(command) {
       switch (command) {
-        case "personalCenter":
-          this.onPersonalCenter();
-          break;
-        case "logout":
-          this.onLogout();
-          break;
+        case 'personalCenter':
+          this.onPersonalCenter()
+          break
+        case 'logout':
+          this.onLogout()
+          break
       }
     },
     onPersonalCenter() {
-      store.toPersonalCenter && store.toPersonalCenter();
+      store.toPersonalCenter && store.toPersonalCenter()
     },
     onLogout() {
-      MessageBox.confirm("是否要退出登录？", "提示")
+      MessageBox.confirm('是否要退出登录？', '提示')
         .then(_ => {
-          store.logout();
-          store.onLogout && store.onLogout();
+          store.logout()
+          store.onLogout && store.onLogout()
         })
-        .catch(_ => {});
+        .catch(_ => {})
     }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

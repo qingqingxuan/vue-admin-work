@@ -1,6 +1,5 @@
 import { resetRouter } from '@/router/index'
 import Cookies from 'js-cookie'
-import layoutStore from '@/layouts/store'
 
 const userInfoString = localStorage.getItem('userInfo')
 const userInfo = JSON.parse(userInfoString || '{}')
@@ -13,9 +12,6 @@ const state = {
   avatar: userInfo.avatar || '',
   token: userInfo.token || ''
 }
-
-layoutStore.state.userInfo.nickName = userInfo.userNickName
-layoutStore.state.userInfo.avatar = userInfo.avatar || require('@/assets/img_avatar_example.gif')
 
 const getters = {
   getAvatar(state) {
@@ -37,8 +33,6 @@ const actions = {
     return new Promise((resolve, reject) => {
       try {
         commit('SAVE_USER_INFO', userInfo)
-        layoutStore.state.userInfo.nickName = userInfo.userNickName
-        layoutStore.state.userInfo.avatar = userInfo.avatar || require('@/assets/img_avatar_example.gif')
         resolve()
       } catch (error) {
         reject(error)

@@ -20,7 +20,7 @@ Vue.use(LayoutStore, {
     isFixedNavBar: true,
     layoutMode: 'ltr',
     themeColor: 'theme_color_blue',
-    theme: 'dark-side',
+    theme: 'dark-side'
   },
   actions: {
     onLogout() {
@@ -39,5 +39,5 @@ Vue.config.productionTip = false
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: (h) => h(App)
 }).$mount('#app')
