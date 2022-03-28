@@ -7,7 +7,7 @@ const state = {
   userId: userInfo.userId || '',
   userName: userInfo.userName || '',
   userNickName: userInfo.userNickName || '',
-  roleId: userInfo.userId || '',
+  roleId: userInfo.roleId || '',
   roles: userInfo.roles || [],
   avatar: userInfo.avatar || '',
   token: userInfo.token || ''
