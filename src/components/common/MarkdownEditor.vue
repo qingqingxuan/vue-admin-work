@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import 'simplemde/dist/simplemde.min.css'
+import 'simplemde-w/dist/simplemde.min.css'
 import 'font-awesome/css/font-awesome.min.css'
-import SimpleMDE from 'simplemde'
+import SimpleMDE from 'simplemde-w'
 export default {
   name: 'MarkdowEditor',
   props: {
