@@ -33,7 +33,7 @@
 
 <script>
 import MarkdownEditor from '@/components/common/MarkdownEditor'
-import SimpleMDE from 'simplemde'
+import SimpleMDE from 'simplemde-w'
 
 export default {
   name: 'Markdown',

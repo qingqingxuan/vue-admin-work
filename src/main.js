@@ -12,7 +12,6 @@ import '../mock'
 import '@/components/common'
 
 import LayoutStore from '@/layouts/index'
-import AvatarUrl from '@/assets/img_avatar_example.gif'
 import { resetRouter } from './router/index'
 import Cookies from 'js-cookie'
 
@@ -21,11 +20,7 @@ Vue.use(LayoutStore, {
     isFixedNavBar: true,
     layoutMode: 'ltr',
     themeColor: 'theme_color_blue',
-    theme: 'dark-side',
-    userInfo: {
-      nickName: '超级管理员',
-      avatar: AvatarUrl
-    }
+    theme: 'dark-side'
   },
   actions: {
     onLogout() {
@@ -44,5 +39,5 @@ Vue.config.productionTip = false
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: (h) => h(App)
 }).$mount('#app')

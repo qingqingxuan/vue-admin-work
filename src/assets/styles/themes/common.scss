@@ -6,7 +6,7 @@
   $textColor: #f5f5f5,
   $activeTextColor: #409eff,
   $badgeColor: #141414,
-  $parent: "light"
+  $parent: 'light'
 ) {
   .vaw-tab-split-side-bar-wrapper,
   .vaw-side-bar-wrapper {
@@ -87,7 +87,7 @@
   $headerTabItemActiveTextColor: #409eff,
   $headerBorderColor: $headerBorderColor,
   $headerShadow: #d0d0d0,
-  $parent: "light"
+  $parent: 'light'
 ) {
   .vaw-header-layout {
     background-color: $headerBgColor;
@@ -104,7 +104,7 @@
     }
   }
   .logo-wrapper {
-    border-bottom: 1px solid $headerBorderColor;
+    border-bottom: 1px dashed $headerBorderColor;
   }
   .vaw-nav-bar-wrapper {
     color: $headerTextColor;
@@ -148,7 +148,7 @@
   $mainCardBorderColor: $mainCardBorderColor,
   $mainTextColor: $mainTextColor,
   $mainActiveTextColor: $mainActiveTextColor,
-  $parent: "light"
+  $parent: 'light'
 ) {
   .vaw-main-layout-container {
     background-color: $mainContentBgColor;
@@ -331,7 +331,12 @@
   }
 }
 
-@mixin popover($popoverBgColor: #000, $popoverBorderColor: #f5f5f5, $popoverTextColor: #fff, $parent: "light") {
+@mixin popover(
+  $popoverBgColor: #000,
+  $popoverBorderColor: #f5f5f5,
+  $popoverTextColor: #fff,
+  $parent: 'light'
+) {
   .el-popover {
     background-color: $popoverBgColor;
     border: 1px solid $popoverBorderColor;

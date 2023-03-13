@@ -32,7 +32,6 @@ export default {
     theme: 'dark-side',
     themeColor: 'theme_color_blue',
     themeVariables,
-    userInfo: {},
     permissionRoutes: [],
     visitedView: [],
     cachedView: [],
@@ -84,14 +83,17 @@ export default {
     this.state.permissionRoutes = routes
   },
   isEmptyPermissionRoute() {
-    return !this.state.permissionRoutes || this.state.permissionRoutes.length === 0
+    return (
+      !this.state.permissionRoutes || this.state.permissionRoutes.length === 0
+    )
   },
   changeSideBarIcon(key = null, icon = null) {
     if (!key || !icon) {
       return
     }
-    const menuList = this.state.permissionRoutes
-      .filter(it => it.hidden === false)
+    const menuList = this.state.permissionRoutes.filter(
+      it => it.hidden === false
+    )
     const item = findItemByKey(key, menuList)
     if (item && item.meta) {
       item.meta.icon = icon
